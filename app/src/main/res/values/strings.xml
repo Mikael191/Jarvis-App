@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JARVIS</string>
+    <string name="touch_to_speak">Tocar para Falar</string>
+    <string name="listening">Ouvindo...</string>
+    <string name="processing">Processando...</string>
+    <string name="init_message">Sistemas online. Como posso ajudar?</string>
+    <string name="permission_denied">Permissão de microfone negada. Não posso ouvir você.</string>
+    <string name="error_listening">Erro ao ouvir. Tente novamente.</string>
+</resources>

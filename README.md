@@ -44,5 +44,16 @@ Para tornar o Jarvis realmente inteligente:
 - Comandos Básicos simulados.
 - Modo de bate-papo (Simulado).
 
+## 🔧 Solução de Problemas (Troubleshooting)
+
+### Erro: "Corrupted Cache" ou "Incompatible Java"
+Se você encontrar erros como `org.gradle.cache.internal.btree.CorruptedCacheException` ou incompatibilidade com Java 21:
+
+1. **Java 21**: O projeto foi atualizado para Gradle 8.7, que suporta Java 21. Certifique-se de sincronizar o projeto.
+2. **Cache Corrompido**: Se o erro persistir, execute o script de limpeza incluído na raiz do projeto:
+   - **Windows**: Dê um duplo clique em `fix_gradle_cache.bat`.
+   - **Linux/Mac**: Execute `./fix_gradle_cache.sh` no terminal.
+3. Reinicie o Android Studio e tente novamente.
+
 ## 📄 Licença
 Projeto Open Source.
